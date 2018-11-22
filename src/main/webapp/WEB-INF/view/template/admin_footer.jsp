@@ -17,7 +17,7 @@
             </div>
             <hr>
                 <div>
-                    <a href="">관리자로그인</a>
+                    <a href="admin_login">관리자로그인</a>
                 </div>
             <div>
                 <address>

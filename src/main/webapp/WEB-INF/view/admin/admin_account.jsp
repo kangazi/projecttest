@@ -6,23 +6,20 @@
  <div class="centerdiv">
                     <h1>관리자 계정 등록</h1>
                 </div>
-                <form action="" method="post">
+                <form action="admin_account" method="post">
                 <table align="center">
                     <thead>
                     </thead>
                     <tbody>
                         <tr>
                             <td>아이디</td>
-                            <td><input type="text" placeholder="업체명"></td>
+                            <td><input type="text" name="admin_id" placeholder="업체명"></td>
                         </tr>
                         <tr>
                             <td>비밀번호</td>
-                            <td><input type="password" placeholder="비밀번호"></td>
+                            <td><input type="password" name="admin_pw" placeholder="비밀번호"></td>
                         </tr>
-                        <tr>
-                            <td>비밀번호 확인</td>
-                            <td><input type="password" placeholder="비밀번호 확인"></td>
-                        </tr>
+
 
                     </tbody>
                     <tfoot>

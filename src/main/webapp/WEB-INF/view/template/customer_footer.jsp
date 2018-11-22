@@ -9,7 +9,7 @@
     <footer>
         <article class="fh footdiv">
             <div>
-                <img src="image/pen4.jpg">
+                <img src="http://placehold.it/50x50">
             </div>
             <div>
                 <a href="">회사소개</a>

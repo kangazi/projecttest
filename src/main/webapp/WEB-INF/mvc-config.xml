@@ -11,9 +11,8 @@
             base-package="org.springframework.samples.web"/>  -->
 
 	<context:component-scan base-package="webproject.controller.member"></context:component-scan>
-	<context:component-scan base-package="webproject.controller.rmember"></context:component-scan>
 	<context:component-scan base-package="webproject.controller.main"></context:component-scan>
-	<context:component-scan base-package="webproject.event.admin"></context:component-scan>
+	<context:component-scan base-package="webproject.controller.admin"></context:component-scan>
 	<!-- <context:component-scan base-package="webproject.event.admin"></context:component-scan>-->
 	
     <mvc:annotation-driven />
@@ -24,6 +23,9 @@
 	        <property name="suffix" value=".jsp"/>
 	       
 	</bean>
+	<!-- 파일업로드 참고파일 -->
+	<!-- http://victorydntmd.tistory.com/174 -->
+	<!-- http://www.sysout.co.kr/document -->
 	
 
 

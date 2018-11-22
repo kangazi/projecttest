@@ -10,5 +10,7 @@
     <context:component-scan base-package="webproject.configuration.member"></context:component-scan>
     <context:component-scan base-package="webproject.repository.member"></context:component-scan>
    	<context:component-scan base-package="webproject.service.member"></context:component-scan>
-   		
+   	<context:component-scan base-package="webproject.service.admin"></context:component-scan>
+   	<context:component-scan base-package="webproject.service.password"></context:component-scan>	
+
 </beans>

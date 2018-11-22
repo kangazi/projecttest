@@ -18,34 +18,44 @@
         </thead>
         <tbody>
             <tr>
+            <tr>
+                <td>사업자번호</td>
+                <td><input type="number" name="mb_businessno" placeholder="사업자번호"></td>
+            </tr>
+            <tr>
                 <td>업체명</td>
                 <td><input type="text" name="mb_name" placeholder="업체명"></td>
             </tr>
             <tr>
-                <td>사업자번호</td>
-                <td><input type="number" name="reg_number" placeholder="사업자번호"></td>
+                <td>비밀번호</td>
+                <td><input type="password" name="mb_pw" placeholder="비밀번호"></td>
             </tr>
             <tr>
                 <td>대표자명</td>
                 <td><input type="text" name="mb_ceo" placeholder="대표자명"></td>
             </tr>
             <tr>
-                <td>주소</td>
-                <td><input type="text" name="mb_address" placeholder="주소"></td>
+                <td>우편번호</td>
+                <td><input type="text" name="mb_post" placeholder="주소"></td>
+            </tr>
+            
+            <tr>
+                <td>기본주소</td>
+                <td><input type="text" name="mb_addr1" placeholder="주소"></td>
+            </tr>
+            <tr>
+                <td>상세주소</td>
+                <td><input type="text" name="mb_addr2" placeholder="주소"></td>
             </tr>
             <tr>
                 <td>전화번호</td>
-                <td><input type="text" name="mb_tel" placeholder="전화번호"></td>
+                <td><input type="text" name="mb_phone" placeholder="전화번호"></td>
+            </tr>
+            <tr>
+                <td>핸드폰번호</td>
+                <td><input type="text" name="mb_hp" placeholder="전화번호"></td>
             </tr>
 
-            <tr>
-                <td>비밀번호</td>
-                <td><input type="password" name="mb_pw" placeholder="비밀번호"></td>
-            </tr>
-            <tr>
-                <td>비밀번호 확인</td>
-                <td><input type="password" name="mb_pw2" placeholder="비밀번호 확인"></td>
-            </tr>
             <tr>
                 <td>구분</td>
                 <td>
